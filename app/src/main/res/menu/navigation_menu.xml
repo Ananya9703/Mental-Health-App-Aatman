@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/nav_meditation"
+        android:title="Meditation" />
+
+    <item
+        android:id="@+id/nav_breathwork"
+        android:title="Breath Work" />
+
+    <item
+        android:id="@+id/nav_quiz"
+        android:title="Quiz" />
+
+    <item
+        android:id="@+id/nav_blog"
+        android:title="Blogs" />
+
+    <item
+        android:id="@+id/nav_journal"
+        android:title="Journal" />
+
+    <item
+        android:id="@+id/nav_todo"
+        android:title="To Do List" />
+
+    <item
+        android:id="@+id/nav_expert"
+        android:title="Expert" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout" />
+
+</menu>

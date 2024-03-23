@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- the root view must be the DrawerLayout -->
+
+
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/aatman"
+    android:id="@+id/my_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".landingpg"
+    tools:ignore="HardcodedText">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageButton
+            android:id="@+id/sad"
+            android:layout_width="66dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="17dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mood"
+            app:srcCompat="@drawable/sad" />
+
+
+        <ImageButton
+            android:id="@+id/smug"
+            android:layout_width="66dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="17dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toEndOf="@+id/sad"
+            app:layout_constraintTop_toBottomOf="@+id/mood"
+            app:srcCompat="@drawable/smug" />
+
+        <ImageButton
+            android:id="@+id/indifferent"
+            android:layout_width="66dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="17dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toEndOf="@+id/smug"
+            app:layout_constraintTop_toBottomOf="@+id/mood"
+            app:srcCompat="@drawable/indifferent" />
+
+
+        <ImageButton
+            android:id="@+id/lilhappy"
+            android:layout_width="66dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="17dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toEndOf="@+id/indifferent"
+            app:layout_constraintTop_toBottomOf="@+id/mood"
+            app:srcCompat="@drawable/lilhappy" />
+
+
+        <ImageButton
+            android:id="@+id/superpretty"
+            android:layout_width="66dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="10dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/lilhappy"
+            app:layout_constraintTop_toBottomOf="@+id/mood"
+            app:srcCompat="@drawable/superpretty" />
+
+
+        <TextView
+            android:id="@+id/mood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="332dp"
+            android:layout_marginEnd="45dp"
+            android:fontFamily="@font/sukar"
+            android:text="@string/whatmood"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/customtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sukar"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sad" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <!-- this the navigation view which draws and shows the navigation drawer -->
+    <!-- include the menu created in the menu folder -->
+    <com.google.android.material.navigation.NavigationView
+        android:id = "@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/navigation_menu" />
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+
+

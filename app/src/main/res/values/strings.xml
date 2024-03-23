@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">AATMAN</string>
+    <string name="q1">  1. I feel that life is very rewarding.  </string>
+    <string name="q2">  2. I am able to find the goodness in myself and others.  </string>
+    <string name="q3">  3. I am optimistic about the future.  </string>
+    <string name="q4">  4. I take pleasure in everyday activities.  </string>
+    <string name="q5">  5. I feel joy from moment to moment.  </string>
+    <string name="q6">  6. I have a sense of meaning and purpose in my life.  </string>
+    <string name="q7">  7. I have a lot of energy.  </string>
+    <string name="q8">  8. I feel best when I am giving to others.  </string>
+    <string name="q9">  9. I can find the good, even in a difficult situation.  </string>
+    <string name="q10">  10. I welcome and accept my feelings throughout any given day.  </string>
+    <string name="optA">Always</string>
+    <string name="optB">Sometimes</string>
+    <string name="optC">Never</string>
+    <string name="reshead">Your Results</string>
+    <string name="res1">We are glad to see you are happy!</string>
+    <string name="resp1">You are really living a full life!\nThough you probably know this already, being happy does not mean a perpetual state of bliss.\nThat’s just not sustainable for human nature but it does mean that you’re able to sit with all of your feelings with curiosity and compassion.\nYou’re able to find the goodness\nin yourself and others, which\nmeans you behave in a way that is kinder and facilitates greater happiness in your life. Keep on doing what you’re doing\nand being you!\n</string>
+    <string name="res2">Hanging in limbo.</string>
+    <string name="resp2">This isn’t a bad thing, it just reinforces that no one is happy all of the time.\nAnd, maybe you could be doing\na bit more work to feel more\nof a sense of purpose.\nWhen you accept and embrace the tough times, you build insight and muscle for more of the happy times or periods of contentment.\nYou are also building empathy\nfor others and learning more\nabout how to be fully yourself.\nBeing more real, happy, and evolved means expanding your internal experience to include\nan ever-growing awareness of all that is present.\n</string>
+    <string name="res3">To every dark cloud,\nthere is a silver lining.</string>
+    <string name="resp3">OK, so you have some work to do, but you can easily shift your mood with a little practice.\nLike all things, this phase too shall pass.\nStart by accepting what you’re feeling rather than invalidating it, and embrace it with no judgement.\nIt might also mean there exist old wounds that need healing.\nWhen you treat yourself with compassion and live in alignment with your values\nyou are better able to experience the joy of the moment and see the good in others.\nFocus on gratitude, find the good in yourself and others, and create a narrative that brings meaning to your life experience.\n</string>
+    <string name="whatmood">How do you feel today?</string>
+    <string name="superprettystring">Yay! Have a great day!!</string>
+    <string name="lilhappystring">Keep it up champ!</string>
+    <string name="indifferentstring">The day is still not over :)</string>
+    <string name="smugstring">Sending you a virtual hug !</string>
+    <string name="sadstring">Nothing is permanent,\nand that includes your hardships too!</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+</resources>
